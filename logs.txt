@@ -1,0 +1,2 @@
+[2026-09-12 09:24:14] server:started: порт 3000
+[2026-09-12 09:24:16] request:received: GET /
