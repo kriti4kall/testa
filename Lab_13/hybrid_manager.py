@@ -29,7 +29,7 @@ class FileManagerHybrid:
     async def save_hybrid(self, filename, content, callback=None):
         filepath = os.path.join(self.base_dir, filename)
         try:
-            await asyncio.sleep(0.01)
+            await asyncio.sleep(0.02)
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
             
