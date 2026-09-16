@@ -38,7 +38,6 @@ class FileManagerCallback:
             })
         except Exception as e:
             callback(e, None)
-
     def delete_file(self, filename, callback):
         filepath = os.path.join(self.base_dir, filename)
         try:
