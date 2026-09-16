@@ -20,7 +20,7 @@ class FileManagerAsync:
         filepath = os.path.join(self.base_dir, filename)
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
-        await asyncio.sleep(0.01)
+        await asyncio.sleep(0.02)
         return content
 
     async def get_file_stats(self, filename):
