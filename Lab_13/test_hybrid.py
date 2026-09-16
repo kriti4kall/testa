@@ -1,6 +1,5 @@
 import asyncio
 from hybrid_manager import FileManagerHybrid
-
 def my_callback(error, result):
     if error:
         print(f"   ❌ Ошибка в колбэке: {error}")
