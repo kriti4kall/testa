@@ -1,7 +1,6 @@
 from file_operations_callback import FileManagerCallback
 
 file_manager = FileManagerCallback('./test-data-cb')
-
 print("=== ТЕСТИРОВАНИЕ КОЛБЭКОВ (Python) ===\n")
 
 # 1. Создание файла
