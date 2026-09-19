@@ -1,7 +1,6 @@
 import asyncio
 from file_operations_async import FileManagerAsync
 
-
 async def main():
     file_manager = FileManagerAsync('./test-data-async')
     print("=== ТЕСТИРОВАНИЕ ASYNC/AWAIT (Python) ===\n")
