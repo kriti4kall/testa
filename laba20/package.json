@@ -1,0 +1,14 @@
+{
+  "name": "lab20",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 20 (группа ББМО-01-23)",
+  "type": "module",
+  "scripts": {
+    "start:task1": "node http-server.js",
+    "start:task2": "node http-headers.js",
+    "start:task3": "node http-body.js"
+  },
+  "keywords": [],
+  "author": "ytisk",
+  "license": "ISC"
+}
