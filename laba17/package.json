@@ -1,0 +1,20 @@
+{
+  "name": "lab17-cli",
+  "version": "1.0.0",
+  "description": "Лабораторная работа №17: Исследование методов создания CLI-приложений",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "my-cli": "./index.js"
+  },
+  "scripts": {
+    "task1": "node task1.js",
+    "task2": "node task2.js",
+    "task3": "node task3.js",
+    "cli": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "inquirer": "^14.2.3"
+  }
+}
