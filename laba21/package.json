@@ -1,0 +1,14 @@
+{
+  "name": "lab21",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 21 (группа ББМО-01-23)",
+  "type": "module",
+  "scripts": {
+    "start:task1": "node stream-readable.js",
+    "start:task2": "node stream-writable.js",
+    "start:task3": "node stream-pipe.js"
+  },
+  "keywords": [],
+  "author": "ytisk",
+  "license": "ISC"
+}
