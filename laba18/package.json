@@ -1,0 +1,11 @@
+{
+  "name": "lab18-os",
+  "version": "1.0.0",
+  "description": "Лабораторная работа №18: Исследование методов работы модуля OS",
+  "type": "module",
+  "scripts": {
+    "task1": "node os-info.js",
+    "task2": "node os-resources.js",
+    "task3": "node os-network.js"
+  }
+}
