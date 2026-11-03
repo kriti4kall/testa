@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0.5
+    container_name: mongodb_lab24
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: bbmo_477
+    volumes:
+      - mongo_data:/data/db
+
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: app_lab24
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MONGODB_URI=mongodb://mongodb:27017/bbmo_477
+      - GROUP_NAME=ББМО-477
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo_data:
