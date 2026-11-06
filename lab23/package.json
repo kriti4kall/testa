@@ -1,0 +1,26 @@
+{
+  "name": "lab23",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 23: MongoDB и Node.js (группа ББМО-477)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "task1": "node mongodb-connect.js",
+    "task2": "node mongodb-crud.js",
+    "task3": "node mongodb-advanced.js",
+    "task4": "node mongodb-transactions.js",
+    "task5": "node app.js"
+  },
+  "keywords": [],
+  "author": "ytisk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^14.0.0",
+    "mongodb": "^6.10.0",
+    "ws": "^8.18.0"
+  }
+}
