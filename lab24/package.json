@@ -1,0 +1,27 @@
+{
+  "name": "lab24",
+  "version": "1.0.0",
+  "description": "Лабораторная работа 24: REST API на Koa.js и MongoDB (группа ББМО-477)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test-runner.js",
+    "test:coverage": "node test-runner.js --coverage",
+    "docker:demo": "node docker-demo.js"
+  },
+  "keywords": [],
+  "author": "ytisk",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^14.0.0",
+    "mongodb": "^6.10.0",
+    "ws": "^8.18.0"
+  }
+}
